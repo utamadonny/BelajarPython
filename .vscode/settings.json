@@ -1,3 +1,36 @@
 {
-    "python.pythonPath": "D:\\Program Files\\Anaconda3\\python.exe"
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "meta.function-call.generic.python",
+        "settings": {
+          "foreground": "#FF0000"
+        }
+      },
+      {
+        "scope": "source.python",
+        "settings": {
+          "foreground": "#000000"
+        }
+      },
+      {
+        "scope": "punctuation.definition.string.begin",
+        "settings": {
+          "foreground": "#3dc15c"
+        }
+      },
+      {
+        "scope": "punctuation.definition.string.end",
+        "settings": {
+          "foreground": "#3dc15c"
+        }
+      },
+      {
+        "scope": "punctuation",
+        "settings": {
+          "foreground": "#0202ff"
+        }
+      }
+    ]
+  }
 }
