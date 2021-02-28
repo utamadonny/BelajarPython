@@ -40,3 +40,38 @@ res1 = a1+a1
 res2 = a2 + b2
 print(res1)
 print(res2)
+
+t = np.arange(10)**2
+print(t)
+
+# indexing
+print('indexing')
+print('elemen ke 1 adalah', t[0])
+print('elemen ke 2 adalah', t[1])
+print('elemen ke 3 adalah', t[2])
+print('elemen ke 4 adalah', t[3])
+print('elemen akhir ', t[-1])
+
+# slicing
+print('slicing')
+print('elemen dari 1-6', t[0:5])
+print('elemen 4 sampe akhir', t[3:])
+print('elemen dari awal sampe 5', t[:5])
+
+
+# Iterasi
+print('iterasi')
+for i in t:
+    print('val=', i)
+
+
+A = np.array(([1,2,5],
+              [3,4,1]))
+print(A)
+B = np.ones([3,1])
+print(B)
+
+#print(A*B) #perkalian elementwise
+print(np.dot(A,B)) #perkalian matriks
+print(A.dot(B))#OOP 
+

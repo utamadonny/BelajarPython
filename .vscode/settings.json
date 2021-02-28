@@ -1,4 +1,5 @@
 {
+  "python.pythonPath": "C:\\Users\\utama\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
   "editor.tokenColorCustomizations": {
     "textMateRules": [{
         "scope": "meta.function-call.generic.python",
@@ -66,9 +67,10 @@
           "foreground": "#ff0000"
         }
       }
-      
-
     ],
+
+
+
     //     "[GitHub Light]": {
     //     "textMateRules": [
     //       {
