@@ -1,6 +1,6 @@
 import hashlib
 
-def hash_file(filename):
+def sha1sum(filename):
     h=hashlib.sha1()
     with open (filename,'rb') as file:
         chunk  = 0
@@ -9,20 +9,38 @@ def hash_file(filename):
             h.update(chunk)
     return h.hexdigest()
 
-message = hash_file("cybersecurity/halo.txt")
-print("sha1:", message)
+def sha256sum(filename):
+    h=hashlib.sha256()
+    with open (filename,'rb') as file:
+        chunk  = 0
+        while chunk != b'':
+            chunk = file.read(2048)
+            h.update(chunk)
+    return h.hexdigest()
 
-message2= "cybersecurity/halo.txt".encode()
-print("sha1:", hashlib.sha1(message2).hexdigest())
+def md5sum(filename):
+    h=hashlib.md5()
+    with open (filename,'rb') as file:
+        chunk  = 0
+        while chunk != b'':
+            chunk = file.read(2048)
+            h.update(chunk)
+    return h.hexdigest()
 
-message3= "cybersecurity/halo.txt".encode()
-print("sha1:", hashlib.sha1(message3).hexdigest())
+def sha224sum(filename):
+    h=hashlib.sha224()
+    with open (filename,'rb') as file:
+        chunk  = 0
+        while chunk != b'':
+            chunk = file.read(2048)
+            h.update(chunk)
+    return h.hexdigest()
 
-message4 = "print(\"ha1\", hashlib.sha1(message2).hexdigest())".encode()
-print("md5:", hashlib.md5(message4).hexdigest())
-
-message5 = "print(\"ha1\", hashlib.sha1(message2).hexdigest())".encode()
-print("md5:", hashlib.md5(message5).hexdigest())
-
-message6 = "Hai nama saya Epic Gilgameshs".encode()
-print("sha1:", hashlib.sha1(message6).hexdigest())
+def sha384sum(filename):
+    h=hashlib.sha384()
+    with open (filename,'rb') as file:
+        chunk  = 0
+        while chunk != b'':
+            chunk = file.read(2048)
+            h.update(chunk)
+    return h.hexdigest()
