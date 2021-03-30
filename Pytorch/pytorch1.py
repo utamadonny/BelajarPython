@@ -22,3 +22,5 @@ print("tes")
 z1 = torch.mul(c, d)
 print(z)
 print(z1)
+
+print(torch.mul(x,y))

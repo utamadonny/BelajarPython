@@ -1,114 +1,114 @@
-{
-  "python.pythonPath": "C:\\Users\\utama\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
-  "editor.tokenColorCustomizations": {
-    "textMateRules": [{
-        "scope": "meta.function-call.generic.python",
-        "settings": {
-          "foreground": "#FF0000"
-        }
-      },
-      {
-        "scope": "source.python",
-        "settings": {
-          "foreground": "#000000"
-        }
-      },
-      {
-        "scope": "punctuation.definition.string.begin",
-        "settings": {
-          "foreground": "#3dc15c"
-        }
-      },
-      {
-        "scope": "punctuation.definition.string.end",
-        "settings": {
-          "foreground": "#3dc15c"
-        }
-      },
-      {
-        "scope": "punctuation.definition.comment.python",
-        "settings": {
-          "foreground": "#008000"
-        }
-      },
-      {
-        "scope": "punctuation",
-        "settings": {
-          "foreground": "#0202ff"
-        }
-      },
-      {
-        "scope": "support.function.builtin.python",
-        "settings": {
-          "foreground": "#0000FF"
-        }
-      },
-      {
-        "scope": "constant.numeric",
-        "settings": {
-          "foreground": "#99048d"
-        }
-      },
-      {
-        "scope": "meta.function-call.python",
-        "settings": {
-          "foreground": "#ff0080"
-        }
-      },
-      {
-        "scope": "keyword.operator",
-        "settings": {
-          "foreground": "#05979c"
-        }
-      },
-      {
-        "scope": "meta.attribute.python",
-        "settings": {
-          "foreground": "#ff0000"
-        }
-      }
-    ],
-
-
-
-    //     "[GitHub Light]": {
-    //     "textMateRules": [
-    //       {
-    //         "scope": "meta.function-call.generic.python",
-    //         "settings": {
-    //           "foreground": "#FF0000"
-    //         }
-    //       },
-    //       {
-    //         "scope": "source.python",
-    //         "settings": {
-    //           "foreground": "#000000"
-    //         }
-    //       },
-    //       {
-    //         "scope": "punctuation.definition.string.begin",
-    //         "settings": {
-    //           "foreground": "#3dc15c"
-    //         }
-    //       }, {
-    //         "scope": "punctuation.definition.comment.python",
-    //         "settings": {
-    //           "foreground": "#3dc15c"
-    //         }
-    //       },
-    //       {
-    //         "scope": "punctuation.definition.string.end",
-    //         "settings": {
-    //           "foreground": "#3dc15c"
-    //         }
-    //       },
-    //       {
-    //         "scope": "punctuation",
-    //         "settings": {
-    //           "foreground": "#e5ff73"
-    //         }
-    //     }
-    //     ]
-    //   }
-    //  }
-  }
+//{
+//  // "python.pythonPath": "C:\\Users\\utama\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+//  "editor.tokenColorCustomizations": {
+//    "textMateRules": [{
+//        "scope": "meta.function-call.generic.python",
+//        "settings": {
+//          "foreground": "#FF0000"
+//        }
+//      },
+//      {
+//        "scope": "source.python",
+//        "settings": {
+//          "foreground": "#000000"
+//        }
+//      },
+//      {
+//        "scope": "punctuation.definition.string.begin",
+//        "settings": {
+//          "foreground": "#3dc15c"
+//        }
+//      },
+//      {
+//        "scope": "punctuation.definition.string.end",
+//        "settings": {
+//          "foreground": "#3dc15c"
+//        }
+//      },
+//      // {
+//      //   "scope": "punctuation.definition.comment.python",
+//      //   "settings": {
+//      //     "foreground": "#008000"
+//      //   }
+//      // },
+//      // {
+//      //   "scope": "punctuation",
+//      //   "settings": {
+//      //     "foreground": "#0202ff"
+//      //   }
+//      // },
+//      {
+//        "scope": "support.function.builtin.python",
+//        "settings": {
+//          "foreground": "#0000FF"
+//        }
+//      },
+//      {
+//        "scope": "constant.numeric",
+//        "settings": {
+//          "foreground": "#99048d"
+//        }
+//      },
+//      // {
+//      //   "scope": "meta.function-call.python",
+//      //   "settings": {
+//      //     "foreground": "#ff0080"
+//      //   }
+//      // },
+//      {
+//        "scope": "keyword.operator",
+//        "settings": {
+//          "foreground": "#05979c"
+//        }
+//      },
+//      {
+//        "scope": "meta.attribute.python",
+//        "settings": {
+//          "foreground": "#ff0000"
+//        }
+//      }
+//    ],
+//
+//
+//
+//    //     "[GitHub Light]": {
+//    //     "textMateRules": [
+//    //       {
+//    //         "scope": "meta.function-call.generic.python",
+//    //         "settings": {
+//    //           "foreground": "#FF0000"
+//    //         }
+//    //       },
+//    //       {
+//    //         "scope": "source.python",
+//    //         "settings": {
+//    //           "foreground": "#000000"
+//    //         }
+//    //       },
+//    //       {
+//    //         "scope": "punctuation.definition.string.begin",
+//    //         "settings": {
+//    //           "foreground": "#3dc15c"
+//    //         }
+//    //       }, {
+//    //         "scope": "punctuation.definition.comment.python",
+//    //         "settings": {
+//    //           "foreground": "#3dc15c"
+//    //         }
+//    //       },
+//    //       {
+//    //         "scope": "punctuation.definition.string.end",
+//    //         "settings": {
+//    //           "foreground": "#3dc15c"
+//    //         }
+//    //       },
+//    //       {
+//    //         "scope": "punctuation",
+//    //         "settings": {
+//    //           "foreground": "#e5ff73"
+//    //         }
+//    //     }
+//    //     ]
+//    //   }
+//    //  }
+//  }
